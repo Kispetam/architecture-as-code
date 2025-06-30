@@ -7,9 +7,9 @@ import jakarta.ws.rs.Consumes;
 import jakarta.ws.rs.PathParam;
 import jakarta.ws.rs.core.MediaType;
 import org.eclipse.microprofile.rest.client.inject.RegisterRestClient;
-import org.finos.calm.mcp.api.model.AdrResponse;
-import org.finos.calm.mcp.api.model.ValueWrapper;
-import org.finos.calm.mcp.api.model.adr.Adr;
+import org.finos.calm.mcp.api.models.AdrResponse;
+import org.finos.calm.mcp.api.models.ValueWrapper;
+import org.finos.calm.mcp.api.models.adr.Adr;
 import org.jboss.resteasy.reactive.RestResponse;
 
 @RegisterRestClient(baseUri = "http://localhost:8080")

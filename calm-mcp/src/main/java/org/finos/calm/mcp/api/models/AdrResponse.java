@@ -1,6 +1,6 @@
-package org.finos.calm.mcp.api.model;
+package org.finos.calm.mcp.api.models;
 
-import org.finos.calm.mcp.api.model.adr.Adr;
+import org.finos.calm.mcp.api.models.adr.Adr;
 
 public class AdrResponse {
     private Adr adr;

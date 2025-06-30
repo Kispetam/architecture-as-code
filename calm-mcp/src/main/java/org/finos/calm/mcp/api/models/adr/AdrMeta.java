@@ -1,4 +1,4 @@
-package org.finos.calm.mcp.api.model.adr;
+package org.finos.calm.mcp.api.models.adr;
 
 import java.util.Objects;
 

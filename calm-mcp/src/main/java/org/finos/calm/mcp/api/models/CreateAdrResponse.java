@@ -1,4 +1,4 @@
-package org.finos.calm.mcp.api.model;
+package org.finos.calm.mcp.api.models;
 
 public class CreateAdrResponse {
     private boolean success;

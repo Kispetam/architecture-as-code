@@ -1,4 +1,4 @@
-package org.finos.calm.mcp.api.model.adr;
+package org.finos.calm.mcp.api.models.adr;
 
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
