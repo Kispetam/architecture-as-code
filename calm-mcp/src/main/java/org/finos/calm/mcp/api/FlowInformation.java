@@ -1,5 +1,9 @@
 package org.finos.calm.mcp.api;
 
+/**
+ * Represents information about a flow in CALM.
+ * Flows define how data or processes move through the system and represent the dynamic aspects of the architecture.
+ */
 public class FlowInformation {
     private String namespace;
     private String id;

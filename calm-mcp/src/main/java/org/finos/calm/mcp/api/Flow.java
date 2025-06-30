@@ -9,6 +9,10 @@ import org.slf4j.LoggerFactory;
 
 import java.util.List;
 
+/**
+ * CALM MCP tool for managing flows.
+ * Provides functionality to retrieve flow identifiers for specific namespaces.
+ */
 public class Flow {
 
     private final Logger log = LoggerFactory.getLogger(Flow.class);

@@ -9,6 +9,10 @@ import org.slf4j.LoggerFactory;
 
 import java.util.List;
 
+/**
+ * CALM MCP tool for managing patterns.
+ * Provides functionality to retrieve patterns, pattern versions, and specific pattern details.
+ */
 public class Pattern {
 
     private final Logger log = LoggerFactory.getLogger(Pattern.class);

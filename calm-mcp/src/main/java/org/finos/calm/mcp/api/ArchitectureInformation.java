@@ -1,5 +1,9 @@
 package org.finos.calm.mcp.api;
 
+/**
+ * Represents information about an architecture in CALM.
+ * Architectures define system designs, component relationships, and architectural decisions.
+ */
 public class ArchitectureInformation {
     private String namespace;
     private String id;

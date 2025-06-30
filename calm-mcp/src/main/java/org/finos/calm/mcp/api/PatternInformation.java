@@ -1,5 +1,9 @@
 package org.finos.calm.mcp.api;
 
+/**
+ * Represents information about a pattern in CALM.
+ * Patterns provide reusable architectural solutions and design templates.
+ */
 public class PatternInformation {
     private String namespace;
     private String id;

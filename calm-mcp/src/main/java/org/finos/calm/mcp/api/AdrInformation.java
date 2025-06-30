@@ -1,5 +1,9 @@
 package org.finos.calm.mcp.api;
 
+/**
+ * Represents information about an Architecture Decision Record (ADR) in CALM.
+ * ADRs document important architectural decisions, their context, and rationale.
+ */
 public class AdrInformation {
     private String namespace;
     private Integer id;

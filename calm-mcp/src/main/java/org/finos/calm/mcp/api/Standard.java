@@ -9,6 +9,10 @@ import org.slf4j.LoggerFactory;
 
 import java.util.List;
 
+/**
+ * CALM MCP tool for managing standards.
+ * Provides functionality to retrieve standard identifiers for specific namespaces.
+ */
 public class Standard {
 
     private final Logger log = LoggerFactory.getLogger(Standard.class);

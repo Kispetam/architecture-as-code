@@ -1,5 +1,9 @@
 package org.finos.calm.mcp.api;
 
+/**
+ * Represents information about a standard in CALM.
+ * Standards define compliance requirements, governance controls, and regulatory frameworks.
+ */
 public class StandardInformation {
     private String namespace;
     private String id;

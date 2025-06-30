@@ -9,6 +9,10 @@ import org.slf4j.LoggerFactory;
 
 import java.util.List;
 
+/**
+ * CALM MCP tool for managing Architecture Decision Records (ADRs).
+ * Provides functionality to retrieve ADR identifiers for specific namespaces.
+ */
 public class Adr {
 
     private final Logger log = LoggerFactory.getLogger(Adr.class);

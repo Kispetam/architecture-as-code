@@ -9,6 +9,10 @@ import org.slf4j.LoggerFactory;
 
 import java.util.List;
 
+/**
+ * CALM MCP tool for managing architectures.
+ * Provides functionality to retrieve architectures, architecture versions, and specific architecture details.
+ */
 public class Architecture {
 
     private final Logger log = LoggerFactory.getLogger(Architecture.class);

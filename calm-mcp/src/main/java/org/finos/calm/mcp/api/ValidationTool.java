@@ -23,11 +23,14 @@ public class ValidationTool {
 
     private final Logger log = LoggerFactory.getLogger(ValidationTool.class);
 
+    /**
+     * Represents the result of a CALM architecture validation operation.
+     */
     public static class ValidationResult {
-        private boolean success;
-        private String output;
-        private String error;
-        private int exitCode;
+        private final boolean success;
+        private final String output;
+        private final String error;
+        private final int exitCode;
 
         public ValidationResult(boolean success, String output, String error, int exitCode) {
             this.success = success;
@@ -36,10 +39,12 @@ public class ValidationTool {
             this.exitCode = exitCode;
         }
 
-        // Getters
         public boolean isSuccess() { return success; }
+        
         public String getOutput() { return output; }
+        
         public String getError() { return error; }
+        
         public int getExitCode() { return exitCode; }
     }
 
