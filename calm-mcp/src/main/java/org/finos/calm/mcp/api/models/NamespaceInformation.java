@@ -1,5 +1,9 @@
-package org.finos.calm.mcp.api.namespaces;
+package org.finos.calm.mcp.api.models;
 
+/**
+ * Represents information about a namespace in CALM.
+ * Namespaces represent logical groups of architecture models, such as controls, patterns, or specifications.
+ */
 public class NamespaceInformation {
     private String name;
     private String description;

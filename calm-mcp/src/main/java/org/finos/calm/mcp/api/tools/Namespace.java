@@ -1,14 +1,20 @@
-package org.finos.calm.mcp.api.namespaces;
+package org.finos.calm.mcp.api.tools;
 
 import io.quarkiverse.mcp.server.Prompt;
 import io.quarkiverse.mcp.server.PromptMessage;
 import io.quarkiverse.mcp.server.Tool;
 import org.eclipse.microprofile.rest.client.inject.RestClient;
+import org.finos.calm.mcp.api.clients.NamespaceClient;
+import org.finos.calm.mcp.api.models.NamespaceInformation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.List;
 
+/**
+ * CALM MCP tool for managing namespaces.
+ * Provides functionality to retrieve namespace identifiers and information.
+ */
 public class Namespace {
 
     private final Logger log = LoggerFactory.getLogger(Namespace.class);

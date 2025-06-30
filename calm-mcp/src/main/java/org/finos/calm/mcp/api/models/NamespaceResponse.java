@@ -1,7 +1,10 @@
-package org.finos.calm.mcp.api.namespaces;
+package org.finos.calm.mcp.api.models;
 
 import java.util.List;
 
+/**
+ * Response class containing a list of namespace identifiers.
+ */
 public class NamespaceResponse {
     private List<String> values;
 
